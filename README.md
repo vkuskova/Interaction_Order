@@ -53,6 +53,20 @@ Expected output ends with:
 ALL TABLES VERIFIED
 ```
 
+## Table-to-artifact map.
+Table~\ref{tab:law}, columns 3--4: \texttt{order\_probe\_v2}
+(regenerable from its \texttt{results.csv}); column 2 is the closed
+form of Theorem~\ref{thm:F}. Table~\ref{tab:tanh}, column 2:
+\texttt{hermite\_verification}; columns 3--4:
+\texttt{order\_probe\_v2}. Table~\ref{tab:angles}: \texttt{feshchenko\_check}.
+Table~\ref{tab:detectors}: \texttt{nid\_ebm\_order\_probe}.
+Ridge-strength sensitivity statements (Sections~\ref{sec:exp-setup}
+and~\ref{sec:exp-law}): \texttt{ridge\_check} (per-seed table over
+$\lambda \in \{1,10,100\}$). Table~\ref{tab:equicorr}:
+\texttt{equicorr\_probe}. Table~\ref{tab:vdem} and the real-outcome
+statements of Appendix~\ref{app:vdem}: \texttt{vdem\_order\_demo}.
+Table~\ref{tab:beijing}: \texttt{beijing\_order\_demo}.
+
 ## Step 2 — Rerun everything from scratch (Google Colab)
 
 1. Copy this directory to Google Drive as `MyDrive/KDD_Interactions`
