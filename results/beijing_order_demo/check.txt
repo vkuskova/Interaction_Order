@@ -1,0 +1,6 @@
+PASS  pairwise_control: population F2=0 by construction (provable); RBF < 0.02 every condition and seed (empirical class-adequacy threshold)
+PASS  permuted centered monomial -> 1 (provable): OOS poly in (0.85,1.15) each seed
+PASS  permuted centered tanh product -> 1 (provable): OOS poly in (0.85,1.15) each seed
+OBS   permuted in-sample poly (recorded): monomial 0.9956 0.9877 0.9965; tanh 0.9988 0.9974 0.9988
+OBS   gauss_scores monomial: in-sample 0.0288 0.0281 0.0265; OOS 0.0281+-0.0017  vs single-pair reference 0.0236
+OBS   real_std monomial: in-sample 0.0201 0.0215 0.0195; OOS 0.0205+-0.0011  vs single-pair reference 0.0236

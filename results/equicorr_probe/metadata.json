@@ -1,0 +1,33 @@
+{
+  "experiment": "equicorr_probe",
+  "timestamp": "2026-07-03 18:41:41",
+  "geometry": "equicorrelated: corr(Xi,Xj)=rho for all pairs",
+  "N": 60000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rhos": [
+    0.0,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    0.99,
+    1.0
+  ],
+  "targets": [
+    "monomial",
+    "tanh_prod",
+    "pairwise_control",
+    "additive_index"
+  ],
+  "poly_degs": [
+    3,
+    4
+  ],
+  "ridge_lam": 10.0,
+  "code_sha256": "aac3c36440e9b30595bfffe833efcb24af14ef4b18d67e54652379791ae85cdb",
+  "numpy": "2.0.2"
+}

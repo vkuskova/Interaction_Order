@@ -1,0 +1,12 @@
+PASS  monomial rho=0 -> ~1 (independence anchor, provable)
+PASS  monomial rho=0.5 -> ~0.30 (Theorem 2.9 closed form)
+PASS  monomial rho=1 -> ~0 (degenerates to X1^2*X2)
+PASS  tanh_prod rho=0 -> ~1 (zero-mean product anchor)
+PASS  tanh_prod rho=1 -> ~0 (degenerates to tanh(X1)^2*tanh(X2))
+PASS  pairwise_control in S_2 by construction: RBF fraction < 0.02 at all rho
+OBS   basis-inflation gap (tanh_prod, poly_D4 - RBF), by rho [0.0, 0.3, 0.5, 0.7, 0.9, 0.99, 1.0]: -0.042 -0.009 0.048 0.117 0.158 0.152 0.150
+OBS   adequate-class agreement (tanh_prod): RBF 1.038 0.804 0.500 0.208 0.026 0.001 0.000
+OBS                                         EBM 1.001 0.809 0.511 0.220 0.029 0.001 0.001
+OBS   NID 3-way share (monomial, ~flat in rho): 0.676 0.601 0.594 0.613 0.671 0.648 0.652
+OBS   NID 3-way share (tanh_prod, ~flat in rho): 0.714 0.704 0.716 0.691 0.697 0.733 0.728
+OBS   F2 law reference, by rho: 1.000 0.644 0.300 0.088 0.008 0.000 0.000

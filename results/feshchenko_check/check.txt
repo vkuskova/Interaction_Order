@@ -1,0 +1,4 @@
+PASS  four rho-edges detected at expected values
+PASS  all zero angles consistent with 0 (deg-2 features)
+PASS  lambda_min(Delta) matches 1-2rho within 0.03
+PASS  A2 PD status matches rho<1/2 prediction (0.3: PD; 0.6, 0.9: expected failures)

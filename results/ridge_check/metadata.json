@@ -1,0 +1,12 @@
+{
+  "experiment": "ridge_check",
+  "timestamp": "2026-07-01 23:26:45",
+  "N": 60000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "code_sha256": "7220d005fb759009f68e4f3ccfe123d7bc793b22d331caeaf1427eebf9af95cb",
+  "numpy": "2.0.2"
+}

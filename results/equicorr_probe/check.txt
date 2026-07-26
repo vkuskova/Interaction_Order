@@ -1,0 +1,9 @@
+PASS  monomial rho=0 -> ~1 (independence anchor, provable)
+PASS  monomial rho=1 -> ~0 (degenerates to g^3, one variable)
+PASS  tanh_prod rho=0 -> ~1 (zero-mean product anchor)
+PASS  tanh_prod rho=1 -> ~0 (degenerates to tanh(g)^3)
+PASS  pairwise_control in S_2 by construction: RBF fraction < 0.02 at all rho (provable zero)
+OBS   monotone decay across grid (monomial, poly D4): True
+OBS   at or below single-pair law at equal pairwise rho (mid-range): True
+OBS   pairwise_control poly-D4 residual (basis error on tanh sums, recorded not tested): 0.0179 0.0240 0.0318 0.0425 0.0563 0.0636 0.0648
+OBS   additive_index (descriptive, unchecked): 0.0159 0.0066 0.0029 0.0008 0.0000 0.0000 0.0000

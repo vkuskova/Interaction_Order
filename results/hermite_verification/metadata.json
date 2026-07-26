@@ -1,0 +1,8 @@
+{
+  "experiment": "hermite_verification",
+  "timestamp": "2026-07-01 23:49:59",
+  "code_sha256": "748ad7c8ce46b3d1498077e4871374f88f9014b47dbc2599fca07b58ecd97ec9",
+  "numpy": "2.0.2",
+  "closed_form": "(1-r^2)^2 / ((1+r^2)(1+2r^2))",
+  "pinned_tanh_source": "order_probe_v2 results.csv, frac_rbf_ridge"
+}

@@ -1,0 +1,5 @@
+PASS  monomial rho=1 -> ~0 (2-variable degeneration)
+PASS  tanh_prod rho=1 -> ~0 under RBF (basis-adequacy)
+PASS  tanh_prod rho=0 -> ~1 (zero-mean product anchor)
+PASS  monomial rho=0.5 in [0.28,0.33] (range membership)
+PASS  additive_index control small (<0.05)

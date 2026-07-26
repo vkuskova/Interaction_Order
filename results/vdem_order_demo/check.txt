@@ -1,0 +1,7 @@
+OBS   permuted monomial_c: provable value 1; in-sample 0.905+-0.040 (biased down) and OOS 1.472+-0.404 (inflated up) bracket 1; resolution limited by heavy-tailed marginals at this n
+OBS   permuted tanh_prod_c: provable value 1; in-sample 0.954+-0.017 (biased down) and OOS 1.180+-0.162 (inflated up) bracket 1; resolution limited by heavy-tailed marginals at this n
+PASS  pairwise_control: population F2=0 by construction (provable); RBF < 0.02 every condition and seed (empirical class-adequacy threshold)
+OBS   gaussianized real dependence, monomial poly-D4: 0.4976 0.4976 0.4976  vs single-pair reference 0.1782
+OBS   real_std monomial poly-D4: 0.4634 0.4634 0.4634
+OBS   A real_std: poly holdout R2(<=2var) = +0.0237+-0.0116; 3-way gap = +0.00013+-0.00328; RBF-pairwise R2 (context) = +0.0272+-0.0163
+OBS   A gauss_scores: poly holdout R2(<=2var) = -0.0109+-0.0406; 3-way gap = +0.00088+-0.00285; RBF-pairwise R2 (context) = -0.0028+-0.0291

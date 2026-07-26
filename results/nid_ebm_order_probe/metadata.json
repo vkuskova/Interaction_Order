@@ -1,0 +1,43 @@
+{
+  "experiment": "nid_ebm_order_probe",
+  "timestamp": "2026-07-18 16:54:09",
+  "geometry": "single_pair: corr(X1,X3)=rho, X2 independent",
+  "N": 20000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rhos": [
+    0.0,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    0.99,
+    1.0
+  ],
+  "targets": [
+    "monomial",
+    "tanh_prod",
+    "pairwise_control"
+  ],
+  "detector_targets": [
+    "monomial",
+    "tanh_prod"
+  ],
+  "ebm_seeds": [
+    0,
+    1
+  ],
+  "poly_degs": [
+    3,
+    4
+  ],
+  "ridge_lam": 10.0,
+  "code_sha256": "6d7a70c91ed1ad28ae624bce91c3c6e482ba54ca879463b139aa3b9ab4ea59b0",
+  "numpy": "2.4.4",
+  "sklearn": "1.8.0",
+  "interpret": "0.7.8",
+  "reproducibility_note": "frac_ebm and nid_share3 are stochastic and library-dependent; not bitwise reproducible across versions."
+}

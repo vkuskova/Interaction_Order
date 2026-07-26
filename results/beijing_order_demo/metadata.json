@@ -1,0 +1,96 @@
+{
+  "experiment": "beijing_order_demo",
+  "timestamp": "2026-07-03 21:43:05",
+  "data_path": "/content/drive/MyDrive/KDD_Interactions/data/beijing_panel.npz",
+  "n_pooled_complete": 420768,
+  "n_sites": 12,
+  "column_order_hypothesis": [
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM"
+  ],
+  "pearson_triple": [
+    [
+      1.0,
+      -0.831560467640728,
+      0.03191585165340807
+    ],
+    [
+      -0.8315604676407281,
+      1.0,
+      0.061297235662172996
+    ],
+    [
+      0.03191585165340807,
+      0.061297235662172996,
+      1.0
+    ]
+  ],
+  "strong_pair_rho": -0.831560467640728,
+  "config": {
+    "COLNAMES": [
+      "PM2.5",
+      "PM10",
+      "SO2",
+      "NO2",
+      "CO",
+      "O3",
+      "TEMP",
+      "PRES",
+      "DEWP",
+      "RAIN",
+      "WSPM"
+    ],
+    "TRIPLE_IDX": [
+      6,
+      7,
+      10
+    ],
+    "TRIPLE": [
+      "TEMP",
+      "PRES",
+      "WSPM"
+    ],
+    "N_SUB": 60000,
+    "SEEDS": [
+      0,
+      1,
+      2
+    ],
+    "RIDGE_LAM": 10.0,
+    "TARGETS_B": [
+      "monomial_c",
+      "tanh_prod_c",
+      "pairwise_control"
+    ],
+    "CONDITIONS": [
+      "real_std",
+      "gauss_scores",
+      "permuted_gauss"
+    ],
+    "CENTERS": [
+      -2.5,
+      -1.875,
+      -1.25,
+      -0.625,
+      0.0,
+      0.625,
+      1.25,
+      1.875,
+      2.5
+    ],
+    "BW": 0.75,
+    "train_frac": 0.75
+  },
+  "code_sha256": "5522dba4afdf1a9214bb0c647dde9bb6c0a23033d0513e2e0dcfedeea4c794ef",
+  "provenance_scope": "function bytecode + config dict only; not full source text or comments",
+  "numpy": "2.0.2"
+}

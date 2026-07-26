@@ -1,0 +1,74 @@
+{
+  "experiment": "vdem_order_demo",
+  "timestamp": "2026-07-03 19:39:14",
+  "data_path": "/content/drive/MyDrive/KDD_Interactions/data/HDL_merged_notdev_selected.csv",
+  "n_triple": 8000,
+  "n_outcome": 7944,
+  "n_countries": 140,
+  "pearson_triple": [
+    [
+      1.0,
+      -0.030864431501478974,
+      -0.09680068467304813
+    ],
+    [
+      -0.03086443150147897,
+      1.0,
+      0.5970347982000129
+    ],
+    [
+      -0.09680068467304813,
+      0.5970347982000128,
+      1.0
+    ]
+  ],
+  "strong_pair_rho": 0.5970347982000129,
+  "config": {
+    "TRIPLE": [
+      "navco_nonviol",
+      "v2csprtcpt",
+      "v2clrspct"
+    ],
+    "OUTCOME": "upturn",
+    "SEEDS": [
+      0,
+      1,
+      2
+    ],
+    "RIDGE_LAM": 10.0,
+    "TARGETS_B": [
+      "monomial_c",
+      "tanh_prod_c",
+      "pairwise_control"
+    ],
+    "CONDITIONS": [
+      "real_std",
+      "gauss_scores",
+      "permuted_gauss"
+    ],
+    "CENTERS": [
+      -2.5,
+      -1.875,
+      -1.25,
+      -0.625,
+      0.0,
+      0.625,
+      1.25,
+      1.875,
+      2.5
+    ],
+    "BW": 0.75,
+    "train_frac": 0.75,
+    "poly_deg": 4,
+    "SEEDS_A": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "code_sha256": "381075ba9cec5b6df332678a78735273fb2bc311cb011d5557c63ffcbd774136",
+  "provenance_scope": "function bytecode + config dict only; not full source text or comments",
+  "numpy": "2.0.2"
+}

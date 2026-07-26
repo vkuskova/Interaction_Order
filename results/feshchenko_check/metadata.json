@@ -1,0 +1,15 @@
+{
+  "experiment": "feshchenko_check",
+  "timestamp": "2026-07-02 00:49:46",
+  "N": 1500000,
+  "rhos": [
+    0.3,
+    0.6,
+    0.9
+  ],
+  "code_sha256": "47a26b41c0f09a176083bfd14933708422fa6ed15e547f26da5f17d3274f3307",
+  "numpy": "2.0.2",
+  "analytic_spectrum": "{1-2rho, 1, 1, 1, 1, 1, 1, 1+2rho} over the full power set (8 subsets); PD iff rho < 1/2",
+  "a2_interpretation": "rho=0.6 and rho=0.9 are expected A2 failures demonstrating conservatism of the sufficient condition",
+  "convention_status": "CONFIRMED: matches Idrissi et al. arXiv 2310.06567 Definition 3 (maximal coalitional precision matrix) verbatim"
+}
