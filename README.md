@@ -1,4 +1,4 @@
-# Reproducibility bundle — "When Is Interaction Order Identifiable?"
+# Reproducibility bundle for paper "When Is Interaction Order Identifiable?"
 
 Anonymized supplementary material. This bundle supports two independent
 levels of reproduction:
