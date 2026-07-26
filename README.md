@@ -55,18 +55,19 @@ ALL TABLES VERIFIED
 
 ## Table-to-artifact map
 
-Table~\ref{tab:law}, columns 3--4: \texttt{order\_probe\_v2}
-(regenerable from its \texttt{results.csv}); column 2 is the closed
-form of Theorem~\ref{thm:F}. Table~\ref{tab:tanh}, column 2:
-\texttt{hermite\_verification}; columns 3--4:
-\texttt{order\_probe\_v2}. Table~\ref{tab:angles}: \texttt{feshchenko\_check}.
-Table~\ref{tab:detectors}: \texttt{nid\_ebm\_order\_probe}.
-Ridge-strength sensitivity statements (Sections~\ref{sec:exp-setup}
-and~\ref{sec:exp-law}): \texttt{ridge\_check} (per-seed table over
-$\lambda \in \{1,10,100\}$). Table~\ref{tab:equicorr}:
-\texttt{equicorr\_probe}. Table~\ref{tab:vdem} and the real-outcome
-statements of Appendix~\ref{app:vdem}: \texttt{vdem\_order\_demo}.
-Table~\ref{tab:beijing}: \texttt{beijing\_order\_demo}.
+Every table and quantitative claim in the paper regenerates from one of the artifacts below.
+
+| Paper table / claim | Artifact | Notes |
+| --- | --- | --- |
+| Table 1, columns 3–4 | `order_probe_v2` | Regenerable from its `results.csv`. Column 2 is the closed form of the degradation-law theorem ("Exact degradation law"). |
+| Table 2, column 2 | `hermite_verification` | |
+| Table 2, columns 3–4 | `order_probe_v2` | |
+| Table 3 | `nid_ebm_order_probe` | |
+| Table 4 | `equicorr_probe` | |
+| Table 5 | `feshchenko_check` | |
+| Table 6 (and the real-outcome statements in the V-Dem demonstration) | `vdem_order_demo` | |
+| Table 7 | `beijing_order_demo` | |
+| Ridge-strength sensitivity (Sections 3.1 and 3.2) | `ridge_check` | Per-seed table over λ ∈ {1, 10, 100}. |
 
 ## Step 2 — Rerun everything from scratch (Google Colab)
 
