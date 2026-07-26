@@ -53,7 +53,8 @@ Expected output ends with:
 ALL TABLES VERIFIED
 ```
 
-## Table-to-artifact map.
+## Table-to-artifact map
+
 Table~\ref{tab:law}, columns 3--4: \texttt{order\_probe\_v2}
 (regenerable from its \texttt{results.csv}); column 2 is the closed
 form of Theorem~\ref{thm:F}. Table~\ref{tab:tanh}, column 2:
